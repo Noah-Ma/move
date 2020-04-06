@@ -30,4 +30,4 @@ while True:
             else:
                 desty = dest+'\\'+fle
             os.rename(pathy, desty)
-    time.sleep(10)
+            print(f"Moved {fle}")
